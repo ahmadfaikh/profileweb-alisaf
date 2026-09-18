@@ -1,0 +1,6 @@
+{
+  "name": "Pondok Pesantren Al Is'af",
+  "description": "Website resmi profil Pondok Pesantren Al Is'af Ds. Sidodadi, Kec. Sukosewu, Kab. Bojonegoro, Jawa Timur. Berdiri tahun 2017 oleh KH. Agus Mujahiddin S.Pd.I, berfokus pada bidang salaf dan Al-Qur'an, sekolah formal MTs, serta pembangunan SMK.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
