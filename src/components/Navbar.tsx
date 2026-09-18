@@ -155,9 +155,9 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenPsbForm, onNavigate, activ
 
             {/* Mobile Hamburger Toggle */}
             <div className="flex lg:hidden items-center space-x-2">
-              <a href={PESANTREN_INFO.psbGoogleFormUrl} target="_blank" rel="noopener noreferrer" className="px-3 py-1.5 text-xs font-bold rounded-lg bg-amber-400 text-emerald-950 shadow-sm block text-center">
+              {/* <a href={PESANTREN_INFO.psbGoogleFormUrl} target="_blank" rel="noopener noreferrer" className="px-3 py-1.5 text-xs font-bold rounded-lg bg-amber-400 text-emerald-950 shadow-sm block text-center">
                 Daftar PSB
-              </a>
+              </a> */}
               <button onClick={() => setMobileMenuOpen(!mobileMenuOpen)} className={`p-2 rounded-lg ${isScrolled ? "text-slate-800 hover:bg-slate-100" : "text-white hover:bg-emerald-800"}`} aria-label="Menu">
                 {mobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
               </button>

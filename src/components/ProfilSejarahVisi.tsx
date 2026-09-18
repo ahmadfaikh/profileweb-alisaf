@@ -27,18 +27,24 @@ export const ProfilSejarahVisi: React.FC = () => {
             <h3 className="font-serif-display text-2xl sm:text-3xl font-bold text-slate-900 leading-tight text-justify">Berdiri Tahun 2017: Menjaga Ruh Salaf & Al-Qur'an</h3>
 
             <p className="text-justify">
-              Pondok Pesantren Al Is'af didirikan pada tahun <strong>2017</strong> oleh <strong>{PESANTREN_INFO.founder}</strong> yang berlokasi di <strong>Ds. Sidodadi, Kec. Sukosewu, Kab. Bojonegoro, Jawa Timur</strong>. Berawal dari
-              keikhlasan dan niat berkhidmah untuk syiar Islam, lembaga ini hadir berupa pondok pesantren yang berfokus teguh pada <strong>bidang keilmuan Salaf (kajian kitab kuning) dan Tahfizhul Qur'an</strong>.
+              Pondok Pesantren Al Is'af lahir dari sebuah amanah, perjuangan, dan cita-cita untuk menghadirkan lembaga pendidikan Islam yang menjadi tempat tumbuhnya generasi yang berilmu, berakhlakul karimah, terampil, serta dekat dengan
+              Al-Qur'an.{" "}
             </p>
 
             <p className="text-justify">
-              Nama <em>"Al Is'af"</em> (الْإِسْعَاف) bermakna <strong>pertolongan, bantuan, dan kemaslahatan bagi umat</strong>. Para santri dibimbing mengaji kitab-kitab turats salafiyah dengan metode sorogan dan bandongan, membiasakan
-              adab kesantrian, serta menghafal Al-Qur'an dengan tartil mutqin.
+              Pondok Pesantren Al Is'af didirikan oleh Kyai Moh. Agus Mujahidin atas perintah guru beliau, KH. M. Ihya' Ulumiddin, pengasuh Pondok Pesantren Nurul Haromain Pujon, Malang. Beliau merupakan salah satu santri kesayangan Abuya
+              Sayyid Muhammad bin Alawi Al-Maliki Al-Hasani, seorang ulama besar dari Makkah Al-Mukarramah. Amanah dan nasihat sang guru inilah yang kemudian menjadi salah satu tonggak awal berdirinya Pondok Pesantren Al Is'af.{" "}
             </p>
 
             <p className="text-justify">
-              Kemudian seiring berjalannya waktu dan tingginya antusiasme masyarakat, Pondok Pesantren Al Is'af mengembangkan layanan pendidikan dengan <strong>mendirikan sekolah formal jenjang Madrasah Tsanawiyah (MTs)</strong>. Dan
-              sebagai wujud nyata menjawab tantangan era kemandirian masa kini, <strong>saat ini sedang berjalan pembangunan gedung dan sarana prasarana SMK Al Is'af</strong> di lingkungan pesantren.
+              <strong>Awal Perintisan</strong>
+            </p>
+            <p className="text-justify">
+              Perjalanan Pondok Pesantren Al Is'af mulai dirintis pada tahun 2017. Pada masa awal tersebut, perjuangan dimulai dari sesuatu yang sederhana, yaitu membangun sebuah masjid yang kemudian diberi nama Masjid Al Is'ad.
+            </p>
+            <p className="text-justify">
+              Nama Al Is'ad memiliki makna kebahagiaan. Nama tersebut dipilih dengan sebuah harapan dan doa agar masjid itu menjadi tempat yang menghadirkan kebahagiaan, ketenteraman, keberkahan, dan kedekatan kepada Allah SWT bagi siapa
+              saja yang datang, beribadah, belajar, dan berkumpul di dalamnya.....
             </p>
 
             {/* Quick Milestones Mini Banner */}
@@ -61,16 +67,11 @@ export const ProfilSejarahVisi: React.FC = () => {
           {/* Photo Collage & Cultural Image */}
           <div className="lg:col-span-6 relative">
             <div className="rounded-3xl overflow-hidden shadow-2xl border-4 border-white">
-              <img
-                src="https://images.unsplash.com/photo-1577495508048-b635879837f1?auto=format&fit=crop&w=1200&q=80"
-                alt="Suasana Santri Mengaji di Pondok Pesantren Al Is'af Bojonegoro"
-                className="w-full h-80 sm:h-96 object-cover"
-                referrerPolicy="no-referrer"
-              />
+              <img src="/ponpes.webp" alt="Suasana Santri Mengaji di Pondok Pesantren Al Is'af Bojonegoro" className="w-full h-80 sm:h-96 object-cover" referrerPolicy="no-referrer" />
             </div>
 
             {/* Floating Info Pill */}
-            <div className="absolute -bottom-6 -left-4 sm:left-6 bg-white/95 backdrop-blur-md p-4 rounded-2xl shadow-xl border border-slate-100 max-w-xs">
+            {/* <div className="absolute -bottom-6 -left-4 sm:left-6 bg-white/95 backdrop-blur-md p-4 rounded-2xl shadow-xl border border-slate-100 max-w-xs">
               <div className="flex items-center space-x-3">
                 <div className="w-10 h-10 rounded-xl bg-emerald-100 text-[#0F4C3A] flex items-center justify-center font-bold text-sm">2017</div>
                 <div>
@@ -78,7 +79,7 @@ export const ProfilSejarahVisi: React.FC = () => {
                   <div className="text-[11px] text-slate-500">Kab. Bojonegoro, Jawa Timur</div>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
 
@@ -94,7 +95,7 @@ export const ProfilSejarahVisi: React.FC = () => {
               <div>
                 <span className="text-xs uppercase font-bold tracking-wider text-amber-300">Visi Pesantren</span>
                 <h3 className="font-serif-display text-2xl sm:text-3xl  mt-1 text-white leading-tight">
-                  Menjadikan pondok pesantren al is'af sebagai lembaga sosial, pendidikan dan dakwah yang mencetak kader-kader religius, terampil dan berakhlakul karimah
+                  Menjadikan Pondok Pesantren Al Is'af sebagai lembaga sosial, pendidikan, dan dakwah yang unggul dalam mencetak generasi Qur’ani yang religius, berilmu, terampil, mandiri, serta berakhlakul karimah
                 </h3>
               </div>
 
@@ -123,17 +124,22 @@ export const ProfilSejarahVisi: React.FC = () => {
               <div className="space-y-3.5">
                 <div className="flex items-start space-x-3 text-xs sm:text-sm text-slate-700">
                   <CheckCircle2 className="w-5 h-5 text-emerald-600 flex-shrink-0 mt-0.5" />
-                  <p>Memfasilitasi pendidikan formal ataupun non formal yang sesuai dengan minat dan bakat santri</p>
+                  <p>Menyelenggarakan pendidikan keagamaan yang berlandaskan Al-Qur’an dan Sunnah untuk membentuk generasi Qur’ani yang beriman, bertakwa, dan berakhlakul karimah.</p>
                 </div>
 
                 <div className="flex items-start space-x-3 text-xs sm:text-sm text-slate-700">
                   <CheckCircle2 className="w-5 h-5 text-emerald-600 flex-shrink-0 mt-0.5" />
-                  <p>Memberikan pendidikan agama islam sesuai dengan al qur’an dan assunnah</p>
+                  <p>Menanamkan nilai-nilai keislaman dan akhlakul karimah dalam kehidupan santri melalui pembiasaan ibadah, keteladanan, kedisiplinan, dan kepedulian terhadap sesama.</p>
                 </div>
 
                 <div className="flex items-start space-x-3 text-xs sm:text-sm text-slate-700">
                   <CheckCircle2 className="w-5 h-5 text-emerald-600 flex-shrink-0 mt-0.5" />
-                  <p>Mengembangkan pola kerja pesantren berbasis modern yang profesional dan islami </p>
+                  <p>Mengembangkan potensi, keterampilan, dan kemandirian santri agar mampu menghadapi perkembangan zaman serta memberikan manfaat bagi masyarakat.</p>
+                </div>
+
+                <div className="flex items-start space-x-3 text-xs sm:text-sm text-slate-700">
+                  <CheckCircle2 className="w-5 h-5 text-emerald-600 flex-shrink-0 mt-0.5" />
+                  <p>Menyelenggarakan kegiatan dakwah yang edukatif dan membangun sebagai sarana menyebarkan nilai-nilai Islam yang rahmatan lil ‘alamin.</p>
                 </div>
 
                 {/* <div className="flex items-start space-x-3 text-xs sm:text-sm text-slate-700">

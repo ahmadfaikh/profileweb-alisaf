@@ -25,12 +25,7 @@ export const SambutanPengasuh: React.FC = () => {
                 {/* Decorative Frame */}
                 <div className="w-56 h-56 sm:w-64 sm:h-64 rounded-2xl bg-gradient-to-tr from-[#0F4C3A] to-amber-500 p-1.5 shadow-xl">
                   <div className="w-full h-full rounded-[14px] overflow-hidden bg-slate-100 relative">
-                    <img
-                      src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=800&q=80"
-                      alt="Pengasuh Pondok Pesantren Al Is'af"
-                      className="w-full h-full object-cover object-top"
-                      referrerPolicy="no-referrer"
-                    />
+                    <img src="fotopengasuhsqr.png" alt="Pengasuh Pondok Pesantren Al Is'af" className="w-full h-full object-cover object-top" referrerPolicy="no-referrer" />
                     <div className="absolute inset-0 bg-gradient-to-t from-emerald-950/70 via-transparent to-transparent"></div>
                   </div>
                 </div>

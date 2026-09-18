@@ -166,9 +166,9 @@ export const KontakWakafFooter: React.FC<KontakWakafFooterProps> = ({ onNavigate
             {/* Identity */}
             <div className="space-y-3">
               <div className="flex items-center space-x-3">
-                <div className="w-10 h-10 rounded-xl bg-amber-400 p-0.5">
+                {/* <div className="w-10 h-10 rounded-xl bg-amber-400 p-0.5">
                   <div className="w-full h-full bg-[#0F4C3A] rounded-[9px] flex items-center justify-center font-arabic text-lg font-bold text-amber-300">إسعاف</div>
-                </div>
+                </div> */}
                 <div>
                   <h4 className="font-bold text-sm text-white">{PESANTREN_INFO.name}</h4>
                   <p className="text-[11px] text-emerald-400">Sukosewu, Bojonegoro - Jawa Timur</p>
@@ -250,11 +250,11 @@ export const KontakWakafFooter: React.FC<KontakWakafFooterProps> = ({ onNavigate
             <div>
               &copy; {new Date().getFullYear()} {PESANTREN_INFO.name}. Hak Cipta Dilindungi Undang-Undang.
             </div>
-            <div className="flex items-center space-x-4">
+            {/* <div className="flex items-center space-x-4">
               <span>Bermartabat, Beradab, Berwawasan Peradaban</span>
               <span>•</span>
               <span className="font-arabic text-amber-300">مَعْهَدُ الْإِسْعَافِ الإِسْلَامِيّ</span>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
