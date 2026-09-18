@@ -52,7 +52,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenPsbForm, onNavigate, activ
                 <div className="flex items-center space-x-1.5">
                   <h1 className={`font-bold text-lg sm:text-xl tracking-tight leading-none ${isScrolled ? "text-[#0F4C3A]" : "text-white"}`}>{PESANTREN_INFO.name}</h1>
                 </div>
-                <p className={`text-xs mt-0.5 font-medium ${isScrolled ? "text-slate-500" : "text-emerald-200/90"}`}>Salaf, Al-Qur'an(Sukosewu, Bojonegoro)</p>
+                {/* <p className={`text-xs mt-0.5 font-medium ${isScrolled ? "text-slate-500" : "text-emerald-200/90"}`}>Salaf, Al-Qur'an(Sukosewu, Bojonegoro)</p> */}
               </div>
             </div>
 
