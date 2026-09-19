@@ -29,10 +29,10 @@ export const KontakWakafFooter: React.FC<KontakWakafFooterProps> = ({ onNavigate
                   <span>Amal Jariyah Tanpa Putus</span>
                 </div>
 
-                <h3 className="font-serif-display text-2xl sm:text-3xl font-bold text-white">Wakaf Pembangunan Gedung SMK Al Is'af & Sarana Pesantren</h3>
+                <h3 className="font-serif-display text-2xl sm:text-3xl font-bold text-white">Wakaf Pembangunan Madin & Sarana Pesantren</h3>
 
                 <p className="text-emerald-100/90 text-xs sm:text-sm leading-relaxed max-w-2xl">
-                  Salurkan infaq dan wakaf terbaik Anda untuk mendukung percepatan pembangunan gedung sekolah menengah kejuruan (SMK) Al Is'af serta sarana santri penghafal Al-Qur'an dan pengkaji kitab salaf di Desa Sidodadi, Kec. Sukosewu,
+                  Salurkan infaq dan wakaf terbaik Anda untuk mendukung percepatan pembangunan gedung Madrasah Diniyah Miftahul Huda serta sarana santri penghafal Al-Qur'an dan pengkaji kitab salaf di Desa Sidodadi, Kec. Sukosewu,
                   Bojonegoro.
                 </p>
 
@@ -225,7 +225,7 @@ export const KontakWakafFooter: React.FC<KontakWakafFooterProps> = ({ onNavigate
                 </li>
                 <li>
                   <button onClick={() => onNavigate("pendidikan")} className="hover:text-amber-300 transition-colors">
-                    MTs Al-Roudloh (Madrasah Formal)
+                    MTs Ar-Roudloh (Madrasah Formal)
                   </button>
                 </li>
                 <li>

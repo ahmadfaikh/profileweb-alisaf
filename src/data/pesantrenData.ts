@@ -3,7 +3,7 @@ import { EducationUnit, SantriSchedule, Facility, NewsItem, Achievement, FaqItem
 export const PESANTREN_INFO = {
   name: "Pondok Pesantren Al Is'af",
   arabicName: "مَعْهَدُ الْإِسْعَافِ الإِسْلَامِيّ",
-  tagline: "Madrasah Diniyah Takmiliyah, MTs Al-Roudloh & MA Ibnu Hajar",
+  tagline: "Madrasah Diniyah Takmiliyah, MTs Ar-Roudloh & MA Ibnu Hajar",
   motto: "Al-Muhafadzatu 'alal qadimis shalih, wal akhdzu bil jadidil ashlah",
   mottoTranslation: "Memelihara tradisi lama yang baik, dan mengambil inovasi baru yang lebih baik",
   foundedYear: 2017,
@@ -61,10 +61,10 @@ export const PANCA_JIWA = [
 export const EDUCATION_UNITS: EducationUnit[] = [
   {
     id: "madin",
-    name: "Madrasah Diniyah Takmiliyah",
-    arabicName: "المَدْرَسَةُ الدِّينِيَّة التَّكْمِيلِيَّة",
+    name: "Madrasah Diniyah Takmiliyah Miftahul Huda",
+    arabicName: "",
     category: "diniyah",
-    level: "Ula - Wustho - Ulya",
+    level: "Ula - Wustho",
     description: "Pendidikan keagamaan Islam non-formal berjenjang yang memfokuskan pengkajian ilmu-ilmu keislaman, gramatika bahasa Arab (nahwu & shorof), dan kitab salafiyah.",
     curriculum: [
       "Nahwu & Shorof (Jurumiyyah, Imrithi, Alfiyah Ibnu Malik)",
@@ -78,8 +78,8 @@ export const EDUCATION_UNITS: EducationUnit[] = [
   },
   {
     id: "mts",
-    name: "MTs Al-Roudloh",
-    arabicName: "المَدْرَسَةُ الثَّانَوِيَّة الرَّوْضَة",
+    name: "MTs Ar-Roudloh",
+    arabicName: "",
     category: "formal",
     level: "Madrasah Tsanawiyah (Setingkat SMP)",
     description: "Pendidikan menengah pertama formal yang memadukan kurikulum pendidikan madrasah dengan nilai-nilai kepesantrenan, pembiasaan karakter disiplin, dan penguatan keilmuan.",
@@ -91,7 +91,7 @@ export const EDUCATION_UNITS: EducationUnit[] = [
   {
     id: "ma",
     name: "MA Ibnu Hajar",
-    arabicName: "مَدْرَسَةُ ابْنِ حَجَر العَالِيَة",
+    arabicName: "",
     category: "formal",
     level: "Madrasah Aliyah (Setingkat SMA)",
     description: "Pendidikan menengah atas formal yang berorientasi mencetak kader-kader religius, terampil, dan berakhlakul karimah yang siap bersaing serta berkhidmah bagi ummat.",
@@ -342,7 +342,7 @@ export const FAQ_LIST: FaqItem[] = [
   {
     id: "faq-6",
     question: "Apa saja ijazah yang akan diperoleh santri setelah lulus?",
-    answer: "Santri akan memperoleh: (1) Ijazah Formal sesuai jenjang (MTs Al-Roudloh / MA Ibnu Hajar); (2) Ijazah Madrasah Diniyah Takmiliyah Pondok Pesantren Al Is'af; dan (3) Syahadah Tahfizhul Qur'an (bagi santri tahfizh).",
+    answer: "Santri akan memperoleh: (1) Ijazah Formal sesuai jenjang (MTs Ar-Roudloh / MA Ibnu Hajar); (2) Ijazah Madrasah Diniyah Takmiliyah Pondok Pesantren Al Is'af; dan (3) Syahadah Tahfizhul Qur'an (bagi santri tahfizh).",
     category: "akademik",
   },
 ];

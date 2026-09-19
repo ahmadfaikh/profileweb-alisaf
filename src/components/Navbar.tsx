@@ -25,8 +25,8 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenPsbForm, onNavigate, activ
     { id: "beranda", label: "Beranda" },
     { id: "profil", label: "Profil" },
     // { id: 'pendidikan', label: 'Pendidikan', hasDropdown: true },
-    // { id: 'fasilitas', label: 'Fasilitas' },
-    // { id: 'galeri', label: 'Galeri Foto & Video' },
+    { id: 'fasilitas', label: 'Fasilitas' },
+    { id: 'galeri', label: 'Galeri Foto & Video' },
     // { id: 'psb', label: 'PSB 2026/2027', highlight: true },
     { id: "kontak", label: "Kontak" },
   ];
@@ -66,15 +66,14 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenPsbForm, onNavigate, activ
                     <div key={link.id} className="relative" onMouseEnter={() => setEducationDropdownOpen(true)} onMouseLeave={() => setEducationDropdownOpen(false)}>
                       <button
                         onClick={() => handleNavClick("pendidikan")}
-                        className={`flex items-center space-x-1 px-3 py-2 rounded-lg text-sm font-semibold transition-all ${
-                          isScrolled
-                            ? isActive
-                              ? "text-[#0F4C3A] bg-emerald-50"
-                              : "text-slate-700 hover:text-[#0F4C3A] hover:bg-slate-50"
-                            : isActive
-                              ? "text-amber-300 bg-emerald-800/60"
-                              : "text-emerald-100 hover:text-white hover:bg-emerald-800/40"
-                        }`}
+                        className={`flex items-center space-x-1 px-3 py-2 rounded-lg text-sm font-semibold transition-all ${isScrolled
+                          ? isActive
+                            ? "text-[#0F4C3A] bg-emerald-50"
+                            : "text-slate-700 hover:text-[#0F4C3A] hover:bg-slate-50"
+                          : isActive
+                            ? "text-amber-300 bg-emerald-800/60"
+                            : "text-emerald-100 hover:text-white hover:bg-emerald-800/40"
+                          }`}
                       >
                         <span>{link.label}</span>
                         <ChevronDown className="w-4 h-4 opacity-70" />
@@ -105,13 +104,13 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenPsbForm, onNavigate, activ
                               <div className="text-[11px] text-slate-500">Madrasah Tsanawiyah Formal</div>
                             </div>
                           </button>
-                          <button onClick={() => handleNavClick("pendidikan")} className="w-full text-left px-4 py-2.5 hover:bg-emerald-50 text-xs font-medium flex items-center space-x-2.5 transition-colors">
+                          {/* <button onClick={() => handleNavClick("pendidikan")} className="w-full text-left px-4 py-2.5 hover:bg-emerald-50 text-xs font-medium flex items-center space-x-2.5 transition-colors">
                             <Compass className="w-4 h-4 text-teal-700" />
                             <div>
                               <div className="font-semibold text-slate-900">SMK Al Is'af (Tahap Pembangunan)</div>
                               <div className="text-[11px] text-slate-500">Persiapan Vokasi & Kejuruan</div>
                             </div>
-                          </button>
+                          </button> */}
                         </div>
                       )}
                     </div>
@@ -122,17 +121,16 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenPsbForm, onNavigate, activ
                   <button
                     key={link.id}
                     onClick={() => handleNavClick(link.id)}
-                    className={`px-3 py-2 rounded-lg text-sm font-semibold transition-all ${
-                      link.highlight
-                        ? "bg-amber-400 text-emerald-950 hover:bg-amber-300 shadow-sm"
-                        : isScrolled
-                          ? isActive
-                            ? "text-[#0F4C3A] bg-emerald-50"
-                            : "text-slate-700 hover:text-[#0F4C3A] hover:bg-slate-50"
-                          : isActive
-                            ? "text-amber-300 bg-emerald-800/60"
-                            : "text-emerald-100 hover:text-white hover:bg-emerald-800/40"
-                    }`}
+                    className={`px-3 py-2 rounded-lg text-sm font-semibold transition-all ${link.highlight
+                      ? "bg-amber-400 text-emerald-950 hover:bg-amber-300 shadow-sm"
+                      : isScrolled
+                        ? isActive
+                          ? "text-[#0F4C3A] bg-emerald-50"
+                          : "text-slate-700 hover:text-[#0F4C3A] hover:bg-slate-50"
+                        : isActive
+                          ? "text-amber-300 bg-emerald-800/60"
+                          : "text-emerald-100 hover:text-white hover:bg-emerald-800/40"
+                      }`}
                   >
                     {link.label}
                   </button>

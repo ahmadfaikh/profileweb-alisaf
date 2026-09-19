@@ -139,7 +139,7 @@ export const PsbSection: React.FC<PsbSectionProps> = () => {
               </div>
               <div>
                 <div className="font-bold text-slate-900 text-sm">Butuh Bantuan Pendaftaran?</div>
-                <div className="text-slate-600">Hubungi Panitia PSB Al Is'af via WhatsApp: {PESANTREN_INFO.whatsapp}</div>
+                <div className="text-slate-600">WhatsApp: {PESANTREN_INFO.whatsapp}</div>
               </div>
             </div>
             <a
