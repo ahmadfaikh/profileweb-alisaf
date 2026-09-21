@@ -216,7 +216,7 @@ export const FACILITIES: Facility[] = [
     category: "asrama",
     description: "Fasilitas tempat tinggal santri putra & putri yang bersih, tertib, serta kondusif ",
     features: [],
-    image: "/kamar.png",
+    image: "/kamar2.jpeg",
   },
   {
     id: "ruang-belajar",
@@ -234,14 +234,14 @@ export const FACILITIES: Facility[] = [
   //   features: [],
   //   image: "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?auto=format&fit=crop&w=1000&q=80",
   // },
-  {
-    id: "ruang-komputer",
-    name: "Ruang Komputer",
-    category: "akademik",
-    description: "Memiliki ruang lab komputer sebagai penunjang kebutuhan santri",
-    features: [],
-    image: "/labkomputer.png",
-  },
+  // {
+  //   id: "ruang-komputer",
+  //   name: "Ruang Komputer",
+  //   category: "akademik",
+  //   description: "Memiliki ruang lab komputer sebagai penunjang kebutuhan santri",
+  //   features: [],
+  //   image: "/labkomputer.png",
+  // },
   {
     id: "ruang-santai",
     name: "Ruang Santai",
